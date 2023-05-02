@@ -1,0 +1,44 @@
+/*  -- GLOBAL DECLARATIONS --  */
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: monospace;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: blue;
+}
+
+body {
+    background-color: #191919;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+button {
+    outline: none;
+    background-color: black;
+}
+
+/* -- OUTER CONTAINER -- */
+.outer-container {
+    padding: 10px;
+}
+
+.top-bar p{
+    float: right;
+}
+
+.top-bar button{
+    float: left;
+}
+
+/* -- INNER-CONTAINER --  */
+
+
+/* -- HEADER/QUIZ INTRO --  */
+
+/* -- MAIN QUIZ CONTENT --  */
+
