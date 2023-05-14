@@ -31,7 +31,7 @@ h1 {
   }
   
   li {
-    background-color: #9dea90;
+    background-color: #448538;
     margin-top: 10px;
     padding: 5px 15px;
     width: 80%;
@@ -48,7 +48,7 @@ h1 {
     border: 5px solid #9dea90;
   }
   #startTime {
-    background-color: #9dea90;
+    background-color: #448538;
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;
@@ -68,7 +68,7 @@ h1 {
   }
   
   #goBack {
-    background-color: #9dea90;
+    background-color: #448538;
     position: relative;
     padding: 10px;
     font-size: 20px;
@@ -81,7 +81,7 @@ h1 {
   }
   
   #clear {
-    background-color:#9dea90;
+    background-color:#448538;
     position: relative;
     padding: 10px;
     font-size: 20px;
@@ -92,8 +92,8 @@ h1 {
   }
   
   #Submit {
-    background-color: #9dea90;
-    margin-left: 33%;
+    background-color: #448538;
+    margin-left: 34%;
     padding: 15px 32px;
     font-size: 20px;
     color: white;
