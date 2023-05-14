@@ -1,44 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Coding Quiz</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 
+    <title>Code Quiz</title>
+  </head>
+</html>
 <body>
 
-    <!-- Main Outer Div -->
-    <div class="outer-container">
-        <!-- Top Bar Section -->
-        <div class="top-bar">
-            <button>View Highscores</button>
-            <p> Timer: 00:00</p>
-
-        </div>
-
-        <!-- Inner Div -->
-        <div class="inner-container">
-            <!-- Main Quiz Intro -->
-            <header class="quiz-intro">
-                <h1> Welcome to the Coding Quiz</h1>
-                <p> To get started with the quiz, press the button below!</p>
-                <button> Start Quiz!</button>
-
-            </header>
-
-            <!-- Main Quiz Content -->
-            <main>
-
-            </main>
-
-        </div>
-
-
-
+    <a href="highscores.html">View Highscores</a>
+    
+    <div id="wrapper">
+      
+      <div id="currentTime"></div>
+     
+      <div id="questionsDiv">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by five seconds!
+        </p>
+        <ul id="choicesUl"></ul>
+        
+        <button id="startTime">Start Quiz</button>
+      </div>
     </div>
-</body>
 
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
